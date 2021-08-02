@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Normative - Emission Accounting control</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css"
+    />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="userstyle.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <nav class="flex justify-between bg-gray-700 p-5">
+      <div class="flex">
+        <a href="index.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 mt-5 ml-5 text-green-400"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M13 7H7v6h6V7z" />
+            <path
+              fill-rule="evenodd"
+              d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
+              clip-rule="evenodd"
+            /></svg
+        ></a>
+        <span class="mt-4 ml-1 text-2xl font-bold text-green-400">normative</span>
+      </div>
+      <div class="space-x-4 ml-auto p-5 hidden md:flex">
+        <a
+          class="hover:text-white hover:bg-gray-600 p-2 rounded transition duration-300"
+          href="#"
+          >Home</a
+        >
+        <a
+          class="hover:text-white hover:bg-gray-600 p-2 rounded transition duration-200"
+          href="#"
+          >Product</a
+        >
+        <a
+          class="hover:text-white hover:bg-gray-600 p-2 rounded transition duration-200"
+          href="#"
+          >Pricing</a
+        >
+        <a
+          class="hover:text-white hover:bg-gray-600 p-2 rounded transition duration-200"
+          href="#"
+          >About us</a
+        >
+        <a
+          class="hover:text-white hover:bg-gray-600 p-2 rounded transition duration-200"
+          href="#"
+          >News</a
+        >
+        <a
+          class="hover:text-white hover:bg-gray-600 p-2 rounded transition duration-200"
+          href="#"
+          >Book a demo</a
+        >
+      </div>
+
+	  <div class=" gap-2 mt-20 mr-auto p-5 menu-mobile flex flex-col md:hidden">
+        <a
+          class="hover:text-white transition text-gray-500 duration-300"
+          href="#"
+          >Home</a
+        >
+        <a
+          class="hover:text-white transition text-gray-500 duration-300"
+          href="#"
+          >Product</a
+        >
+        <a
+          class="hover:text-white transition text-gray-500 duration-300"
+          href="#"
+          >Pricing</a
+        >
+        <a
+          class="hover:text-white transition text-gray-500 duration-300"
+          href="#"
+          >About us</a
+        >
+        <a
+          class="hover:text-white transition text-gray-500 duration-300"
+          href="#"
+          >News</a
+        >
+        <a
+          class="hover:text-white transition text-gray-500 duration-300"
+          href="#"
+          >Book a demo</a
+        >
+      </div>
+
+
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-mobile md:hidden text-white mt-3 mr-5 h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+          />
+        </svg>
+      </button>
+    </nav>
+
+    <section class="mt-10 justify-center items-center">
+      <h2 class="font-bold text-green-500 text-center">TOWARDS</h2>
+      <h1 class="text-center text-7xl font-light">Net zero emissions</h1>
+      <p class="text-center text-sm mt-6 p-5">
+        The world’s top-performing companies are embracing sustainability to
+        drive business results. We help them deliver on that promise.
+      </p>
+      <div class="flex text-center justify-center items-center">
+        <a href="index.html#feat"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="text-center mt-5 text-green-500 h-8 w-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            /></svg
+        ></a>
+      </div>
+    </section>
+
+    <section class="mt-10" id="feat">
+      <h1 class="text-gray-800 text-center font-light text-6xl">
+        The world’s first emission accounting engine
+      </h1>
+      <h2 class="text-center text-sm mt-6 p-5">
+        Calculate your entire climate footprint and get insights to reduce
+        greenhouse gas emissions.
+      </h2>
+      <div class="grid md:grid-cols-3 mt-6">
+        <div>
+          <h1 class="text-gray-800 text-center font-light text-3xl">
+            Measure all emissions
+          </h1>
+          <div>
+            <h2 class="text-center text-sm mt-2 p-5">
+              Normative accounts for your full carbon footprint, including your
+              supply chain, and help you stay compliant. We remove the hassle of
+              data collection by automating the emission calculation process.
+            </h2>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="text-gray-800 text-center font-light text-3xl">
+            Take climate action
+          </h1>
+          <div>
+            <h2 class="text-center text-sm mt-2 p-5">
+              Our emission accounting engine puts you in control of your CO2
+              emissions. Normative shows you what initiatives have the greatest
+              climate impact and lets you focus on the right problems.
+            </h2>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="text-gray-800 text-center font-light text-3xl">
+            Be a leader
+          </h1>
+          <h2 class="text-center text-sm mt-2 p-5">
+            Sustainability is an opportunity. Customers, investors and future
+            employees want to know your sustainability profile. We help you gain
+            their trust.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-green-300 justify-center items-center p-5">
+		<div class="splide">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide"><div class="flex flex-col justify-center text-center items-center"><div class="">
+						<svg
+						  xmlns="http://www.w3.org/2000/svg"
+						  class="h-36 w-36 my-8"
+						  viewBox="0 0 20 20"
+						  fill="currentColor"
+						>
+						  <path
+							fill-rule="evenodd"
+							d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+							clip-rule="evenodd"
+						  />
+						</svg>
+					  </div>
+					  <div>
+						<h1 class="text-2xl px-10 mx-10 my-3">
+						  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+						  alias mollitia. Voluptatibus ipsa quia porro!""
+						</h1>
+						<h4 class="text-2xl pb-10 mx-10 my-3">
+						  <span class="font-bold text-lg">Quas porro maiores</span>, dignissimos
+						  beatae corporis dolore
+						</h4>
+					  </div></div></li>
+					  <li class="splide__slide"><div class="flex flex-col justify-center text-center items-center"><div class="">
+						<svg
+						  xmlns="http://www.w3.org/2000/svg"
+						  class="h-36 w-36 my-8"
+						  viewBox="0 0 20 20"
+						  fill="currentColor"
+						>
+						  <path
+							fill-rule="evenodd"
+							d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+							clip-rule="evenodd"
+						  />
+						</svg>
+					  </div>
+					  <div>
+						<h1 class="text-2xl px-10 mx-10 my-3">
+						  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+						  alias mollitia. Voluptatibus ipsa quia porro!""
+						</h1>
+						<h4 class="text-2xl pb-10 mx-10 my-3">
+						  <span class="font-bold text-lg">Quas porro maiores</span>, dignissimos
+						  beatae corporis dolore
+						</h4>
+					  </div></div></li>
+
+					  <li class="splide__slide"><div class="flex flex-col justify-center text-center items-center"><div class="">
+						<svg
+						  xmlns="http://www.w3.org/2000/svg"
+						  class="h-36 w-36 my-8"
+						  viewBox="0 0 20 20"
+						  fill="currentColor"
+						>
+						  <path
+							fill-rule="evenodd"
+							d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+							clip-rule="evenodd"
+						  />
+						</svg>
+					  </div>
+					  <div>
+						<h1 class="text-2xl px-10 mx-10 my-3">
+						  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+						  alias mollitia. Voluptatibus ipsa quia porro!""
+						</h1>
+						<h4 class="text-2xl pb-10 mx-10 my-3">
+						  <span class="font-bold text-lg">Quas porro maiores</span>, dignissimos
+						  beatae corporis dolore
+						</h4>
+					  </div></div></li>
+				</ul>
+			</div>
+		</div>
+    </section>
+
+	<section class="bg-green-100 font-bold">
+		<div class="p-10 m-m flex flex-col justify-center items-center">
+			<h1 class="m-5">Want to know your full carbon footprint?</h1>
+			<button class="bg-green-400 rounded p-2" type="button"><a href="index.html#demo">Book A Demo</a></button>
+		</div>
+	</section>
+
+
+
+    <section class="mt-10 p-14"  id="feat">
+		<h1 class="text-gray-800 text-center font-light text-3xl">
+			How Normative works
+		</h1>
+		
+		<div class="grid md:grid-cols-3 mt-6">
+		  <div>
+			<h1 class="text-gray-800 text-center font-bold text-2xl">
+				Export your data
+			</h1>
+			<div>
+			  <h2 class="text-center text-sm mt-2 p-5">
+				Gather your financial data and upload them to Normative.
+			  </h2>
+			</div>
+		  </div>
+  
+		  <div>
+			<h1 class="text-gray-800 text-center font-bold text-2xl">
+				Let Normative calculate
+			</h1>
+			<div>
+			  <h2 class="text-center text-sm mt-2 p-5">
+				Our emission accounting engine maps your transactions and calculates their carbon footprint.
+			  </h2>
+			</div>
+		  </div>
+  
+		  <div>
+			<h1 class="text-gray-800 text-center font-bold text-2xl">
+				Take climate action
+			</h1>
+			<h2 class="text-center text-sm mt-2 p-5">
+				Normative highlights your emission hotspots, and suggests initiatives with the greatest climate impact.
+			</h2>
+		  </div>
+		</div>
+	  </section>
+
+	  <section class="grid md:grid-cols-2 justify-center items-center">
+		<div class="flex justify-center items-center text-center p-10">
+			<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="h-36 w-36 my-8"
+			viewBox="0 0 20 20"
+			fill="currentColor"
+		  >
+			<path
+			  fill-rule="evenodd"
+			  d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+			  clip-rule="evenodd"
+			/>
+		  </svg>
+		</div>  
+		<div class="p-14">
+			<h1 class="text-gray-800 text-center font-light text-3xl">
+				Take high-impact actions
+			  </h1>
+				<h2 class="text-center text-sm mt-2 p-5">
+					Normative recommends high-impact actions to reduce your climate footprint, starting from day one. Use our insights to devise a net-zero strategy, engage your stakeholders and reduce risks in your supply chain.
+				</h2>
+			
+		  </div>
+	  </section>
+
+
+
+	  <section class="grid md:grid-cols-2 justify-center items-center">
+		<div class="p-14">
+			<h1 class="text-gray-800 text-center font-light text-3xl">
+				Become a sustainability leader
+			  </h1>
+				<h2 class="text-center text-sm mt-2 p-5">
+					When climate changes, everything changes. Today, 71% of consumers make choices with sustainability in mind, while 64% of millennials won’t work for a company that ignores sustainability. Normative helps you reduce GHG emissions and gain the trust of your stakeholders.
+				</h2>
+			
+		  </div>
+
+		<div class="flex flex-col-reverse justify-center items-center text-center p-10">
+			<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="h-36 w-36 my-8"
+			viewBox="0 0 20 20"
+			fill="currentColor"
+		  >
+			<path
+			  fill-rule="evenodd"
+			  d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+			  clip-rule="evenodd"
+			/>
+		  </svg>
+		</div>  
+		
+	  </section>
+
+
+	  <section class="bg-green-100 font-bold">
+		<div class="p-10 m-m flex flex-col justify-center items-center">
+			<h1 class="m-5">Get to know your emissions and make a real change</h1>
+			<button class="bg-green-400 rounded p-2" type="button"><a href="index.html#demo">Book A Demo</a></button>
+		</div>
+	</section>
+
+<section class="p-10 bg-gray-700">
+	<div class="grid md:grid-cols-4">
+		<div>
+			<div class="flex p-4 gap-4">
+			<a href="index.html"
+			><svg
+			  xmlns="http://www.w3.org/2000/svg"
+			  class="text-green-400 h-8 w-8"
+			  viewBox="0 0 20 20"
+			  fill="currentColor"
+			>
+			  <path d="M13 7H7v6h6V7z" />
+			  <path
+				fill-rule="evenodd"
+				d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
+				clip-rule="evenodd"
+			  /></svg
+		  ></a>  <span class="text-2xl font-bold text-green-400">normative</span>
+			</div>
+			<div>
+			
+			  <h1 class="ml-10 uppercase font-bold text-white">Contact us</h1>
+			  <div class="flex">
+			  <svg
+			  xmlns="http://www.w3.org/2000/svg"
+			  class="mt-1 text-green-400 h-4 w-4"
+			  viewBox="0 0 20 20"
+			  fill="currentColor"
+			>
+			  <path d="M13 7H7v6h6V7z" />
+			  <path
+				fill-rule="evenodd"
+				d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
+				clip-rule="evenodd"
+			  /></svg><a class="ml-1 text-white" href="mailto:abcdefgh@gmail.com">info@normative.io.io</a>
+			</div>
+			<div class="flex">
+				<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="mt-1 text-green-400 h-4 w-4"
+				viewBox="0 0 20 20"
+				fill="currentColor"
+			  >
+				<path d="M13 7H7v6h6V7z" />
+				<path
+				  fill-rule="evenodd"
+				  d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
+				  clip-rule="evenodd"
+				/></svg><h1 class="ml-1 text-white">Normative</h1>
+			  </div>
+			  <h1 class="ml-5 text-white">Norrlandsgatan 11</h1>
+				<h1 class="ml-5 text-white">11143 Stockholm </h1>
+				<h1 class="ml-5 text-white">SWEDEN</h1>
+			</div>
+	</div>
+
+
+	<div>
+		<div class="flex mt-11 p-5">
+			<h1 class="uppercase font-bold text-white">Normative</h1>
+		  </div>
+		  <div class="flex flex-col">
+			<a class="ml-5 text-white" href="index.html#">Product</h1>
+				<a class="ml-5 text-white" href="index.html#">Price</a>
+				<a class="ml-5 text-white" href="index.html#">News</a>
+		  </div>
+
+
+	</div>
+
+	<div>
+		<div class="flex mt-11 p-5">
+			<h1 class="uppercase font-bold text-white">Company</h1>
+		  </div>
+		  <div class="flex flex-col">
+			<a class="ml-5 text-white" href="index.html#">About us</h1>
+				<a class="ml-5 text-white" href="index.html#">Contact</a>
+				<a class="ml-5 text-white" href="index.html#">Partner</a>
+				<a class="ml-5 text-white" href="index.html#">Career</a>
+		  </div>
+	</div>
+
+
+	<div>
+		<div class="flex mt-11 p-5">
+			<h1 class="uppercase font-bold text-white">SUBSCRIBE TO OUR NEWSLETTER</h1>
+		  </div>
+		  <div class="flex flex-col">
+			<input type="text" placeholder="Name" class="m-1 shadow rounded">
+			<input type="email" placeholder="Email" class="shadow m-1 rounded">
+			<h1 class="text-xs p-2 text-white">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</h1>
+			<button type="button" class="p-3 bg-green-300">Subscribe</button>
+		  </div>
+	</div>
+
+
+
+	</div>
+</section>
+
+<footer>
+
+</footer>
+
+
+
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+	<script>
+		document.addEventListener( 'DOMContentLoaded', function () {
+			new Splide( '.splide' ).mount();
+		} );
+	</script>
+    <script src="./script.js"></script>
+  </body>
+</html>
