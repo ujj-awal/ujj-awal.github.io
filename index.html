@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html class="no-js" lang="html">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css"
+      integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="bg-white sticky top-0">
+      <div class="flex justify-between items-center w-full">
+        <div class="p-3 flex flex-shrink-0">
+          <a href="index.html"
+            ><img src="/img/Futuretheory-Web-Logo.svg" class="w-32"
+          /></a>
+        </div>
+
+        <div class="md:flex hidden space-x-3 text-sm px-6">
+          <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 transition-all border-white">Home</a>
+          <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 transition-all border-white">Services</a>
+          <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 transition-all border-white">Latest</a>
+          <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 transition-all border-white">Podcast</a>
+          <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 transition-all border-white">About</a>
+          <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 transition-all border-white">Contact</a>
+        </div>
+
+        <div class="p-3 flex md:hidden">
+          <button id="mob-toggle"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="mob-nav" class="space-y-3 flex flex-col text-sm pb-6 justify-center ml-3 hidden">
+        <a href="#" class=""></a>
+        <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 border-white transition-all">Home</a>
+        <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 border-white transition-all">Services</a>
+        <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 border-white transition-all">Latest</a>
+        <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 border-white transition-all">Podcast</a>
+        <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 border-white transition-all">About</a>
+        <a href="#" class="font-semibold hover:border-blue-300 hover:text-blue-600 border-b-2 border-white transition-all">Contact</a>
+      </div>
+    </nav>
+
+    <section
+      class="
+        grid
+        md:grid-cols-2
+        bg-blue-100
+        justify-center
+        items-center
+        flex-col-reverse
+      "
+    >
+      <div class="bg-blue-100 gap-6">
+        <h1 class="font-bold p-14 text-3xl">We make your goals come true</h1>
+        <section class="m-10 flex flex-shrink gap-4">
+          <a
+            href="#"
+            class="
+              md:ml-10
+              align-middle
+              text-center text-xs
+              bg-blue-700
+              rounded
+              text-white
+              p-2
+              hover:bg-blue-500
+            "
+            >About us</a
+          >
+
+          <a
+            href="#"
+            class="
+              md:ml-2
+              text-xs text-center
+              bg-white
+              text-black
+              rounded
+              p-2
+              border-2 border-blue-700
+              hover:bg-black hover:text-white hover:border-black
+            "
+            >Insights & Resources</a
+          >
+        </section>
+      </div>
+      <div class="object-cover flex flex-col-reverse object-top">
+        <img src="/img/2021-08-04_153616.png" class="object-top object-fill" />
+      </div>
+    </section>
+
+    <section class="mt-10 p-10 grid md:grid-cols-3 gap-4">
+      <div class="bg-blue-100">
+        <div class="p-5">
+          <h1 class="m-2 p-2 font-bold">Websites</h1>
+          <h3 class="m-1 p-2">
+            Powerful websites and professional digital solutions that take your
+            business further.
+          </h3>
+          <a
+            href="#"
+            class="m-4 bg-blue-700 rounded text-white p-2 hover:bg-blue-500"
+            >Learn More</a
+          >
+        </div>
+      </div>
+
+      <div class="bg-blue-100">
+        <div class="p-5">
+          <h1 class="m-2 p-2 font-bold">Websites</h1>
+          <h3 class="m-1 p-2">
+            Powerful websites and professional digital solutions that take your
+            business further.
+          </h3>
+          <a
+            href="#"
+            class="m-4 bg-blue-700 rounded text-white p-2 hover:bg-blue-500"
+            >Learn More</a
+          >
+        </div>
+      </div>
+
+      <div class="bg-blue-100">
+        <div class="p-5">
+          <h1 class="m-2 p-2 font-bold">Websites</h1>
+          <h3 class="m-1 p-2">
+            Powerful websites and professional digital solutions that take your
+            business further.
+          </h3>
+          <a
+            href="#"
+            class="m-4 bg-blue-700 rounded text-white p-2 hover:bg-blue-500"
+            >Learn More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="text-center flex flex-col justify-center items-center">
+        <h1 class="md:text-3xl text-xl px-10 my-5">
+          We’re trusted by organisations big and small
+        </h1>
+        <h1 class="px-8">
+          We’re proud to build long-lasting relationships with organisations
+          that are amongst the best in their industries. Our very first clients,
+          who started with us in 2008, continue to work with us today.
+        </h1>
+      </div>
+      <div class="grid grid-cols-3 p-10 gap-5 mt-10">
+        <div class="flex flex-col gap-10">
+          <img
+            class="h-12"
+            src="/img/Australian-National-University-Futuretheory.svg"
+          />
+          <img class="h-12" src="/img/BLOC-Futuretheory.svg" />
+        </div>
+
+        <div class="flex flex-col gap-10">
+          <img
+            class="h-10 lg:h-14"
+            src="/img/St-Edmunds-College-Website-Logo-Futuretheory.webp"
+          />
+          <img
+            class="h-12"
+            src="/img/L-Squared-Projects-Logo-Futuretheory_l-squared-projects-logo-full-colour-rgb.svg"
+          />
+        </div>
+
+        <div class="flex flex-col gap-10">
+          <img class="h-12" src="/img/Krofne-Logo-Futuretheory.svg" />
+          <img
+            class="h-12"
+            src="/img/Anatolia-Mediterranean-Market-Futuretheory.svg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="grid md:grid-cols-2 bg-blue-100">
+      <div>
+        <a
+          href="#"
+          style="font-size: 6px"
+          class="uppercase py-2 px-3 hover:text-blue-400"
+          >Latest</a
+        >
+        <h1 class="py-2 px-3 text-blue-600">
+          The latest insights, podcast episodes & resources
+        </h1>
+        <img
+          class="p-2 object-cover"
+          src="/img/pexels-tranmautritam-326503-1536x864.webp"
+        />
+        <a
+          href="#"
+          style="font-size: 6px"
+          class="uppercase py-2 px-3 hover:text-blue-400"
+          >Journal</a
+        >
+        <h1 class="px-3 text-blue-600">
+          Canberra Web Design: How to build a website
+        </h1>
+        <h4 style="font-size: 6px" class="p-3">
+          A great website is an indicator of a great business. It’s often the
+          first point of contact for many prospective customers so you want to
+          make a positive first impression. But how do you go about building a
+          great website and getting a great website design? And should you do it
+          yourself? Below, we’ll explore …
+          <a class="hover:text-blue-400" href="#">Read more</a>
+        </h4>
+      </div>
+      <section class="mt-4">
+        <section class="py-3 px-3 md:inline-flex">
+          <div>
+            <img
+              src="img/pexels-andrea-piacquadio-3807755-1536x1024.webp"
+              class="md:h-28 object-cover flex-grow object-center"
+            />
+          </div>
+
+          <div class="flex flex-col px-3 mt-5 align-middle">
+            <a
+              href="#"
+              style="font-size: 6px"
+              class="uppercase text-gray-400 py-2 hover:text-blue-400"
+              >Journal</a
+            >
+            <h1 class="text-sm">My Work Experience at Futuretheory – Fiona</h1>
+            <p style="font-size: 5px" class="text-gray-400">29 jun 2021</p>
+          </div>
+        </section>
+
+        <div class="py-3 px-3 md:inline-flex">
+          <div>
+            <img
+              src="img/pexels-brett-sayles-2445781-1536x872.webp"
+              class="md:h-24 object-cover object-center"
+            />
+          </div>
+          <div class="flex flex-col px-3 mt-5 align-middle">
+            <a
+              href="#"
+              style="font-size: 6px"
+              class="uppercase text-gray-400 py-2 hover:text-blue-400"
+              >INSIGHT</a
+            >
+            <h1 class="text-sm">Studio hire – what size studio do I need?</h1>
+            <p style="font-size: 5px" class="text-gray-400">29 jun 2021</p>
+          </div>
+        </div>
+
+        <div class="py-3 px-3 md:inline-flex">
+          <div>
+            <img
+              src="img/pexels-tranmautritam-326503-1536x864.webp"
+              class="md:h-24 object-cover object-center"
+            />
+          </div>
+          <div class="flex flex-col px-3 mt-5 align-middle">
+            <a
+              href="#"
+              style="font-size: 6px"
+              class="uppercase text-gray-400 py-2 hover:text-blue-400"
+              >Journal</a
+            >
+            <h1 class="text-sm">Top 4 free stock photo sites</h1>
+            <p style="font-size: 5px" class="text-gray-400">29 jun 2021</p>
+          </div>
+        </div>
+
+        <div class="py-3 px-3 md:inline-flex">
+          <div>
+            <img
+              src="img/Camera-movement-1536x872.webp"
+              class="md:h-40 object-cover object-center"
+            />
+          </div>
+          <div class="flex flex-col px-3 mt-5 align-middle">
+            <a
+              href="#"
+              style="font-size: 6px"
+              class="uppercase text-gray-400 py-2 hover:text-blue-400"
+              >Journal</a
+            >
+            <h1 class="text-sm">
+              How to use camera movements in videos for social media and
+              marketing
+            </h1>
+            <p style="font-size: 5px" class="text-gray-400">29 jun 2021</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="grid md:grid-cols-2 p-3">
+      <div>
+        <h1 style="font-size: 5px" class="p-3">WHY US</h1>
+        <h3 class="px-3">
+          Canberra web development & digital solutions provider
+        </h3>
+        <p style="font-size: 9px" class="p-3 leading-4 text-gray-500">
+          At Futuretheory we pride ourselves on listening and working with our
+          clients’ to ensure they receive exactly what they are looking for in
+          terms of web design and development. Our designers will help create a
+          website that not only looks stunning and functions beautifully but
+          also one that meets the precise needs of both you and your target
+          audience. It’s all about creating uniquely appealing websites with
+          intuitive designs. If you can envision it, our website designers can
+          bring your ideas to life. Whether you’re an individual or a small to
+          medium-sized business; if you need a website, we can help!
+        </p>
+
+        <h3 class="p-3">Complete digital solutions for Feni clients</h3>
+        <p style="font-size: 12px" class="text-gray-500 px-3 leading-4">
+          Even if you require more than professional web design, our team in
+          Canberra has just the solution for you. We happen to be specialists in
+          WordPress web design, social media marketing, as well as utilising the
+          latest platforms and technology available. And best of all, we can
+          explain everything simply and even train you or your staff how to
+          manipulate everything we implement for yourselves. To put it simply,
+          we help businesses and individuals succeed. We’re passionate about
+          what we do, and we work tirelessly until we deliver you results. We
+          spend time getting to know what you do, what makes you different, who
+          your customers are and where you want to be. In the end, we want to
+          see you thrive, and we won’t stop until you are there. From a simple
+          website refresh to highly complex projects and innovative designs, we
+          guarantee to provide you with a solution designed around you. Get in
+          touch with our team in Canberra today to discuss all your ideas and
+          ways we can help enhance your digital presence.
+        </p>
+      </div>
+      <div class="flex justify-end py-10">
+        <img src="/img/Home-page-SEO-why-us.png" class="h-3/4" />
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 p-10">
+      <section class="grid md:grid-cols-3 px-10 text-white bg-gray-900">
+        <div class="my-4">
+          <img src="img/Frame.svg" class="h-8 w-8" />
+        </div>
+        <div class="my-4">
+          <a href="tel:02 6169 4422"> 02 6169 4422</a>
+          <ul>
+            <li>10d Alumina Street,</li>
+            <li>Beard ACT 2620</li>
+          </ul>
+          <a href="mailto:hello@futuretheory.com.au"
+            >hello@futuretheory.com.au</a
+          >
+        </div>
+        <div class="my-4">
+          <h1 class="">Subscribe to our newsletter</h1>
+          <p class="my-3" style="font-size: 5px">
+            The latest insights, resources, expert opinions and company news.
+          </p>
+          <section class="mt-5">
+            <a
+              href="subscribe.html"
+              class="
+                bg-gray-800
+                rounded
+                text-white
+                p-3
+                hover:bg-white hover:text-black
+              "
+              >Subscribe</a
+            >
+          </section>
+        </div>
+      </section>
+      <section class="grid md:grid-cols-3 px-10 text-white bg-gray-900">
+        <div class="my-4 flex flex-col gap-2">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Support</a>
+          <section class="flex gap-4">
+            <a href="www.linkedin.com" target="_blank"
+              ><img
+                class="
+                  transition-transform
+                  transform
+                  hover:scale-95 hover:bg-gray-800
+                  h-6
+                  w-6
+                  outline-none
+                "
+                src="img/linkedin.svg"
+            /></a>
+            <a href="www.instagram.com" target="_blank"
+              ><img
+                class="
+                  transition-transform
+                  transform
+                  hover:scale-95 hover:bg-gray-800
+                  h-6
+                  w-6
+                  outline-none
+                "
+                src="img/instagram.svg"
+            /></a>
+            <a href="www.facebook.com" target="_blank"
+              ><img
+                class="
+                  transition-transform
+                  transform
+                  hover:scale-95 hover:bg-gray-800
+                  h-6
+                  w-6
+                  outline-none
+                "
+                src="img/facebook.svg"
+            /></a>
+          </section>
+        </div>
+
+        <div class="my-4">
+          <h1>Services</h1>
+          <ul class="mt-2">
+            <li class="text-xs"><a href="#">Websites</a></li>
+            <li class="text-xs"><a href="#">Marketing</a></li>
+            <li class="text-xs"><a href="#">Design</a></li>
+          </ul>
+        </div>
+
+        <div class="my-4">
+          <h1>Latest</h1>
+          <ul class="mt-2">
+            <li class="text-xs"><a href="#">Podcast</a></li>
+            <li class="text-xs"><a href="#">Insights</a></li>
+            <li class="text-xs"><a href="#">Journal</a></li>
+            <li class="text-xs"><a href="#">Resources</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="px-10 my-5 text-white bg-gray-900">
+        <p class="text-xs">
+          Acknowledgement of Country In the spirit of reconciliation, we
+          acknowledge the Traditional Custodians of country throughout Australia
+          and their connections to land, sea and community. We pay our respect
+          to their elders past and present and extend that respect to all
+          Aboriginal and Torres Strait Islander peoples today.
+        </p>
+      </section>
+      <section
+        class="
+          lg:flex
+          justify-between
+          px-5
+          py-10
+          mt-5
+          text-white text-center
+          bg-gray-900
+        "
+      >
+        <a
+          class="
+            text-xs
+            transition-transform
+            transform
+            hover:scale-95 hover:bg-gray-800
+            outline-none
+          "
+          href="#"
+          >Privacy Policy</a
+        >
+        <p class="text-xs">© 2021 Futuretheory Pty Ltd ACN 644613696</p>
+      </section>
+    </footer>
+
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/anijs.js"></script>
+    <script src="js/anime.min.js"></script>
+    <!-- Custom script -->
+
+    <!-- bootstrap v5 js-->
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
